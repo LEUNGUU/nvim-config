@@ -65,4 +65,7 @@ return require('packer').startup(function(use)
     use({
         'windwp/nvim-spectre'
     })
+    use({
+        'lewis6991/gitsigns.nvim'
+    })
 end)

@@ -33,7 +33,7 @@ lsp.set_preferences({
 
 lsp.setup_nvim_cmp({
     sources = {
-        { name = 'buffer', option = { get_bufnrs = function() return vim.api.nvim_list_bufs() end }},
+        { name = 'buffer', option = { get_bufnrs = function() return vim.api.nvim_list_bufs() end } },
         { name = 'nvim_lsp' },
         { name = 'path' },
         { name = 'vsnip' },
@@ -66,4 +66,7 @@ vim.diagnostic.config({
         prefix = '●',
     },
 })
+-- remap
+vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
+
 lsp.setup()
