@@ -444,6 +444,7 @@ local setup = function()
     -- Telescope extensions are loaded in each plugin.
     -- But the persisted plugin must be immediately.
     telescope.load_extension('persisted')
+    telescope.load_extension('ui-select')
 end
 
 -- Public functions
