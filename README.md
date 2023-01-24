@@ -114,3 +114,5 @@ Below are different kinds of plugins included in this config.
 [nvim-treesitter/nvim-treesitter]: https://github.com/nvim-treesitter/nvim-treesitter
 [kylechui/nvim-surround]: https://github.com/kylechui/nvim-surround
 
+[wbthomason/packer.nvim]: https://github.com/wbthomason/packer.nvim
+[rose-pine/neovim]: https://github.com/rose-pine/neovim
