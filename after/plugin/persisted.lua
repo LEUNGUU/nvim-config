@@ -1,6 +1,5 @@
 -- plugin: persisted
 -- see: https://github.com/olimorris/persisted.nvim
--- rafi settings
 
 local persisted = require('persisted')
 local fn = vim.fn

@@ -40,7 +40,3 @@ require('spectre').setup({
         },
     },
 })
-vim.keymap.set("n", "<Leader>so", "<cmd>lua require('spectre').open()<CR>")
-vim.keymap.set("n", "<Leader>sw", "<cmd>lua require('spectre').open_visual({select_word=true})<CR>")
-vim.keymap.set("x", "<silent><Leader>s", "<Esc>:lua require('spectre').open_visual()<CR>")
-vim.keymap.set("n", "<silent><Leader>sp", "viw:lua require('spectre').open_file_search()<CR>")

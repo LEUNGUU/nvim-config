@@ -1,6 +1,5 @@
 -- plugin: gitsigns.nvim
 -- see: https://github.com/lewis6991/gitsigns.nvim
--- rafi settings
 
 require('gitsigns').setup({
 	signcolumn = true,  -- Toggle with `:Gitsigns toggle_signs`

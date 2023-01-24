@@ -65,9 +65,6 @@ return require('packer').startup(function(use)
         'b3nj5m1n/kommentary'
     })
     use({
-        'folke/todo-comments.nvim'
-    })
-    use({
         'olimorris/persisted.nvim'
     })
     use({
@@ -88,7 +85,34 @@ return require('packer').startup(function(use)
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     })
     use({ 'nvim-telescope/telescope-ui-select.nvim' })
-
+    use({ 'folke/lsp-colors.nvim' })
+    use({ 'norcalli/nvim-colorizer.lua' })
+    use({ 'rmagatti/goto-preview' })
+    use({ 'folke/neodev.nvim' })
+    use({ 'ray-x/lsp_signature.nvim' })
+    use({
+        "folke/todo-comments.nvim",
+        requires = "nvim-lua/plenary.nvim",
+        config = function()
+            require("todo-comments").setup {
+                signs = false
+            }
+        end
+    })
+    use({
+        "folke/trouble.nvim",
+        requires = "nvim-tree/nvim-web-devicons",
+        config = function()
+            require("trouble").setup({})
+        end
+    })
+    use({
+        "kylechui/nvim-surround",
+        tag = "*", -- Use for stability; omit to use `main` branch for the latest features
+        config = function()
+            require("nvim-surround").setup({})
+        end
+    })
     if packer_bootstrap then
         require('packer').sync()
     end

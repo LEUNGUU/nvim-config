@@ -1,8 +1,5 @@
 -- plugin: neo-tree
 -- see: https://github.com/nvim-neo-tree/neo-tree.nvim
--- rafi settings
-vim.keymap.set("n", "<LocalLeader>e", "<cmd>Neotree filesystem left toggle dir=./<CR>")
-vim.keymap.set("n", "<LocalLeader>a", "<cmd>Neotree filesystem left reveal<CR>")
 
 local winwidth = 25
 vim.g.neo_tree_remove_legacy_commands = 1

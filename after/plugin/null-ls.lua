@@ -1,6 +1,5 @@
 -- plugin: null-ls.nvim
 -- see: https://github.com/jose-elias-alvarez/null-ls.nvim
--- rafi settings
 
 -- install formatters and linters with :Mason
 -- hadolint, markdownlint, mypy, shellcheck, shellharden, shfmt, sql-formatter,
