@@ -53,6 +53,8 @@ Below are different kinds of plugins included in this config.
 | Name | Description |
 | ---- | ----------- |
 | [hoob3rt/lualine.nvim] | statusline plugin written in pure lua
+| [rmagatti/goto-preview] | Preview definitions using floating windows
+
 
 
 ### Syntax

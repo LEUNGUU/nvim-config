@@ -23,3 +23,4 @@ vim.opt.incsearch = true
 
 -- Formatting
 vim.opt.wrap = false
+
