@@ -44,6 +44,8 @@ require("null-ls").setup({
 
         -- Python
         builtins.formatting.black,
+        -- Terraform
+        builtins.formatting.terraform_fmt,
 
         -- Shell
         -- builtins.code_actions.shellcheck,
