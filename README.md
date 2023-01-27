@@ -62,6 +62,8 @@ Below are different kinds of plugins included in this config.
 | Name | Description |
 | ---- | ----------- |
 | [nvim-treesitter/nvim-treesitter] | Nvim Treesitter configurations and abstraction layer
+| [hashivim/vim-terraform] | Base Terraform integration
+
 
 ### Operators & Text Objects
 
@@ -79,6 +81,7 @@ Below are different kinds of plugins included in this config.
 [nvim-lua/plenary.nvim]: https://github.com/nvim-lua/plenary.nvim
 [kyazdani42/nvim-web-devicons]: https://github.com/kyazdani42/nvim-web-devicons
 [nathom/filetype.nvim]: https://github.com/nathom/filetype.nvim
+[hashivim/vim-terraform]: https://github.com/hashivim/vim-terraform
 
 [nvim-neo-tree/neo-tree.nvim]: https://github.com/nvim-neo-tree/neo-tree.nvim
 [mbbill/undotree]: https://github.com/mbbill/undotree

@@ -113,20 +113,7 @@ return require('packer').startup(function(use)
             require("nvim-surround").setup({})
         end
     })
-    use({
-        "nathom/filetype.nvim",
-        config = function()
-            require("filetype").setup {
-                overrides = {
-                    extensions = {
-                        tf = "terraform",
-                        tfvars = "terraform",
-                        tfstate = "json",
-                    },
-                },
-            }
-        end,
-    })
+    use({ 'hashivim/vim-terraform' })
     if packer_bootstrap then
         require('packer').sync()
     end
