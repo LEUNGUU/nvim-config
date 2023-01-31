@@ -211,6 +211,10 @@ local setup = function()
                     '--no-ignore-vcs',
                     '--glob',
                     '!.git',
+                    '--glob',
+                    '!.venv',
+                    '--glob',
+                    '!.env',
                     '--files',
                 }
             },

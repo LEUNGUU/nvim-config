@@ -113,7 +113,7 @@ return require('packer').startup(function(use)
             require("nvim-surround").setup({})
         end
     })
-    use({ 'hashivim/vim-terraform' })
+    use({ "hashivim/vim-terraform" })
     if packer_bootstrap then
         require('packer').sync()
     end
