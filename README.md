@@ -48,6 +48,7 @@ Below are different kinds of plugins included in this config.
 | [nvim-neo-tree/neo-tree.nvim] | File explorer written in Lua
 | [mbbill/undotree] | Ultimate undo history visualizer
 | [b3nj5m1n/kommentary] | Commenting plugin, written in Lua
+| [kenn7/vim-arsync] | synchronisation of remote files and local files using rsync
 
 ### Interface
 | Name | Description |
@@ -121,3 +122,5 @@ Below are different kinds of plugins included in this config.
 
 [wbthomason/packer.nvim]: https://github.com/wbthomason/packer.nvim
 [rose-pine/neovim]: https://github.com/rose-pine/neovim
+
+[kenn7/vim-arsync]: https://github.com/KenN7/vim-arsync

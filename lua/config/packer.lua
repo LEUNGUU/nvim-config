@@ -114,6 +114,7 @@ return require('packer').startup(function(use)
         end
     })
     use({ "hashivim/vim-terraform" })
+    use({ "kenn7/vim-arsync" })
     if packer_bootstrap then
         require('packer').sync()
     end
