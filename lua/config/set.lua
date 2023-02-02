@@ -23,3 +23,9 @@ vim.opt.incsearch = true
 
 -- Formatting
 vim.opt.wrap = false
+
+-- Timing
+vim.opt.ttimeout = true
+vim.opt.timeoutlen = 300
+vim.opt.ttimeoutlen = 10
+vim.opt.updatetime = 200
